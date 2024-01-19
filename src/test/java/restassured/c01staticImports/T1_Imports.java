@@ -1,4 +1,4 @@
-package tests;
+package restassured.c01staticImports;
 
 import static io.restassured.RestAssured.given;
 import static io.restassured.matcher.RestAssuredMatchers.containsPath;
