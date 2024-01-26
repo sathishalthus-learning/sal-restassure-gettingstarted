@@ -1,7 +1,153 @@
 # Rest Assure Usage Documentation Tutorials Status
-
-Chapter 1 Static Imports
-	-- required import files	-- tested--working
-
-Chapter 2 Examples
-	-- json example				-- tested--working
+	
+	1. Static imports
+	
+	2. Examples
+			--JSON Example
+				-getJsonResponse											passed
+				-getJsonResponseValidateResponseForLottoId					passed
+				-getJsonResponseValidateResponseForWinners					passed
+				-getJsonResponseValidateFloatsAndDoublesAsBigdecimal		passed
+				-getJsonResponseValidateConfigureBigdecimal					--
+			--JSON Schema Validation
+				-getJsonResponseValidateSchema								passed
+				-getJsonResponseValidateSchemaSettings						--
+				-getJsonResponseValidateSchemaWithStaticConfiguration		--
+				-jsonSchemaValidationWithoutRestAssured						passed
+				-anonymousJsonRootValidation								--
+			--XML Example													notworked
+			--Advanced
+				-XML	
+					-xmlDepthFirstSearch									notworked
+				-JSON
+					-example1												notworked
+					-example2												notworked
+			--De-serialization with Generics								notworked
+			--Additional Examples											notworked
+			
+	3.Note on floats and doubles											notworked
+	
+	4.Note on syntax (syntactic sugar)										notworked
+	
+	5.Getting Response Data
+			--getResponseData												tested
+			--extractValuesFromResponse										tested
+			--extractValuesFromResponseMultipleValues						tested
+			--extractValuesFromResponseUsingJsonpath						no					
+			XML (using XmlPath)
+			Single Path
+			Headers, cookies, status etc
+			Multi-value headers
+			Multi-value cookies
+			Detailed Cookies
+	
+	6. Specifying Request Data
+			--Invoking HTTP resources
+Parameters
+Multi-value Parameter
+No-value Parameter
+Path Parameters
+Cookies
+Headers
+Content-Type
+Request Body
+Verifying Response Data
+Response Body
+Cookies
+Status
+Headers
+Content-Type
+Full body/content matching
+Use the response to verify other parts of the response
+Measuring response time
+Authentication
+Basic
+Preemptive
+Challenged
+Digest
+Form
+OAuth
+OAuth1
+OAuth2
+CSRF
+Form Token
+Header Token
+Authentication
+Prioritization
+Multi-part form data
+Object Mapping
+Jakarta EE
+JAXB
+Serialization
+Content-Type based Serialization
+Create JSON from a HashMap
+Using an Explicit Serializer
+Deserialization
+Content-Type based Deserialization
+Custom Content-Type Deserialization
+Using an Explicit Deserializer
+Configuration
+Custom
+Parsers
+Custom
+Default
+Default Values
+Specification Re-use
+Querying RequestSpecification
+Filters
+Ordered Filters
+Response Builder
+Logging
+Request Logging
+Response Logging
+Log if validation fails
+Blacklist Headers from Logging
+Root Path
+Path Arguments
+Session Support
+Session Filter
+SSL
+SSL invalid hostname
+URL Encoding
+Proxy Configuration
+Static Proxy Configuration
+Request Specification Proxy Configuration
+Detailed configuration
+Encoder Config
+Decoder Config
+Session Config
+Redirect DSL
+Connection Config
+JSON Config
+HTTP Client Config
+SSL Config
+Param Config
+Failure Config
+CSRF Config
+Spring Support
+Spring Mock Mvc Module
+Bootstrapping RestAssuredMockMvc
+Asynchronous Requests
+Adding Request Post Processors
+Adding Result Handlers
+Using Result Matchers
+Interceptors
+Specifications
+Resetting RestAssuredMockMvc
+Spring MVC Authentication
+Using Spring Security Test
+Injecting a User
+Spring Web Test Client Module
+Bootstrapping RestAssuredWebTestClient
+Specifications
+Resetting RestAssuredWebTestClient
+Kotlin Extension Module for Spring WebTest
+Common Spring Module Documentation
+Note on parameters
+Scala Support Module
+Kotlin
+Avoid Escaping "when" Keyword
+Kotlin Extension Module
+Kotlin Extension Module for Spring MockMvc
+Kotlin Extension Module for Spring WebTest
+More Info

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="restdoc.c02.Examples">
+      <class name="doc.restusage.bExamples.Rest05000_GettingResponseData">
         <methods>
-          <include name="jsonExampleSchemaValidation"/>
+          <include name="extractValuesFromResponseMultipleValues"/>
         </methods>
-      </class> <!-- restdoc.c02.Examples -->
+      </class> <!-- doc.restusage.bExamples.Rest05000_GettingResponseData -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "book": {
+      "type": "object",
+      "properties": {
+        "author": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "price": {
+          "type": "number"
+        },
+        "title": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "author",
+        "category",
+        "price",
+        "title"
+      ]
+    }
+  }
+}
